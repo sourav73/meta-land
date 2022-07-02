@@ -1,0 +1,167 @@
+@import '../../styles/utilities/variables';
+@import '../../styles/utilities/mixin';
+
+* {
+    font-family: 'Thaleah Fat';
+}
+
+.header {
+    height: 8vh;
+    width: 100%;
+    background: $bg-color;
+    padding: 0 2rem;
+
+    a {
+        text-decoration: none;
+        color: $primary-text;
+    }
+
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.navBrand {
+    .navLink {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #f66;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+}
+
+.mainNav {
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                font-weight: 600;
+                font-size: 2rem;
+                opacity: 0.8;
+                transition: 0.2s;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.signIn {
+    display: flex;
+    align-items: center;
+
+    button {
+        background: none;
+        border: none;
+        color: $primary-text;
+        opacity: 0.9;
+        margin-right: 1rem;
+
+        i {
+            font-size: 1.5rem;
+            margin-top: 8px;
+        }
+    }
+
+    a {
+        @include pixelated-border;
+        padding: 0 1.5rem;
+        background: rgb(51, 15, 255);
+        font-size: 2rem;
+    }
+}
+
+.navToggle {
+    display: none;
+
+    i {
+        cursor: pointer;
+        color: $primary-text;
+    }
+}
+
+.mobileNav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: $bg-color;
+    transition: 0.5s;
+    transform: translateX(100%);
+
+    a {
+        color: $primary-text;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .navClose {
+        text-align: right;
+        padding: 2rem;
+        padding-bottom: 1rem;
+
+        i {
+            cursor: pointer;
+            color: $primary-text;
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                padding: 1.5rem 0;
+                padding-left: 2rem;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+                &:first-child {
+                    padding-top: 1rem;
+                }
+
+                a {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: $breakpoint-xl) {
+    .mainNav {
+        ul {
+            display: none !important;
+        }
+    }
+
+    .signIn {
+
+        button,
+        a {
+            display: none;
+        }
+    }
+
+    .navToggle {
+        display: block;
+    }
+
+    .mobileNav {
+        &:global(.show) {
+            transform: translateX(0);
+        }
+    }
+}

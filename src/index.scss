@@ -1,0 +1,28 @@
+@import '../src/styles/utilities/reset';
+
+@font-face {
+  font-family: 'Thaleah Fat';
+  src: local('Thaleah Fat'), url(./font/ThaleahFat.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel Operator';
+  src: local('Pixel Operator'), url(./font/PixelOperator.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel Operator';
+  font-weight: bold;
+  src: local('Pixel Operator'), url(./font/PixelOperator-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel Operator';
+  font-weight: 500;
+  src: local('Pixel Operator'), url(./font/PixelOperatorHB.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Pixel Operator';
+  font-weight: 500;
+}
