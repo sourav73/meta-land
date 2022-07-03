@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className={`${styles.mainNav} text-center`}>
             <div className={styles.navBrand}>
               <a href="#intro" className={styles.navLink}>
-                Meta Land
+                Meta
               </a>
             </div>
             <ul className="d-flex ps-0 mb-0">
@@ -35,9 +35,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className={`${styles.signIn}`}>
-            <button>
+            {/* <button>
               <i className="fa-solid fa-volume-high"></i>
-            </button>
+            </button> */}
             {/* <button><i className="fa-solid fa-volume-xmark"></i></button> */}
             <a href="#signin">Sign in</a>
             <div className={styles.navToggle}>
