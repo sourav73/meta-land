@@ -29,22 +29,5 @@
 }
 
 .list {
-    ul {
-        list-style: none;
-        padding: 0;
-
-        li {
-            padding-left: 1.3rem;
-            font-size: 1.3rem;
-            color: $primary-text;
-
-            &::before {
-                content: "\f0da";
-                font-family: FontAwesome;
-                display: inline-block;
-                margin-left: -1.3rem;
-                width: 1.3rem;
-            }
-        }
-    }
+    @include custom-ul;
 }

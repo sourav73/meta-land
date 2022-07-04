@@ -6,7 +6,7 @@ const ArcadeLand = () => {
   return (
     <section id="arcade-land" className="max-width">
       <div className="container heading text-center mb-3">
-        <SectionHeading text="Arcade land gives you" />
+        <SectionHeading text="Metaland gives you" />
       </div>
       {/* Cards */}
       <div className="cards">
@@ -37,7 +37,7 @@ const ArcadeLand = () => {
               <div className={styles.card}>
                 <h5>Earn</h5>
                 <p>
-                  rent, advertise, launch stores, create items, with your land's
+                  Rent, advertise, launch stores, create items, with your land's
                   resources.
                 </p>
               </div>

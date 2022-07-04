@@ -1,0 +1,11 @@
+@import "../../styles/utilities/variables";
+
+.studioText {
+    font-family: "Thaleah Fat";
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 2rem;
+    background: $primary-text;
+    color: $bg-color;
+    text-shadow: none;
+}

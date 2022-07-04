@@ -1,0 +1,28 @@
+@import '../../styles/utilities/variables';
+
+.member {
+    padding: 0 2.5rem;
+    margin-bottom: 2.5rem;
+
+    h6 {
+        font-family: "Thaleah Fat";
+        font-size: 2rem;
+        color: $primary-text;
+        text-shadow: 0 3px brown;
+
+    }
+
+    a {
+        img {
+            height: 2rem;
+            width: 2rem;
+
+        }
+    }
+
+    :global(.designation) {
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}
