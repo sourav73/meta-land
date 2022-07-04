@@ -35,9 +35,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className={`${styles.signIn}`}>
-            <button>
+            {/* <button>
               <i className="fa-solid fa-volume-high"></i>
-            </button>
+            </button> */}
             {/* <button><i className="fa-solid fa-volume-xmark"></i></button> */}
             <a href="#signin">Sign in</a>
             <div className={styles.navToggle}>
