@@ -1,0 +1,6 @@
+@import '../../styles/utilities/variables';
+@import '../../styles/utilities/mixin';
+
+.list {
+    @include custom-ul;
+}

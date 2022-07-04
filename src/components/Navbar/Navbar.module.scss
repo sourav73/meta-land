@@ -73,11 +73,11 @@
     a {
         @include pixelated-border;
         padding: 0 1.5rem;
-        background: rgb(51, 15, 255);
+        background: #330fff;
         font-size: 2rem;
 
         &:hover {
-            background: rgba(51, 15, 255, 0.8);
+            background: rgba(#330fff, 0.8);
         }
     }
 }
@@ -97,7 +97,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 80%;
     background: $bg-color;
     transition: 0.5s;
     transform: translateX(100%);

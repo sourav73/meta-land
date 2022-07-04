@@ -71,6 +71,26 @@ const Navbar = () => {
                 Collection
               </a>
             </li>
+            <li>
+              <a href="#nolink" onClick={closeNav}>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="#nolink" onClick={closeNav}>
+                Discord
+              </a>
+            </li>
+            <li>
+              <a href="#nolink" onClick={closeNav}>
+                Terms and conditions
+              </a>
+            </li>
+            <li>
+              <a href="#nolink" onClick={closeNav}>
+                Privacy
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
