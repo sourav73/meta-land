@@ -46,6 +46,7 @@
 
                 &:hover {
                     opacity: 1;
+                    border-bottom: 3px solid $primary-text;
                 }
             }
         }
@@ -74,6 +75,10 @@
         padding: 0 1.5rem;
         background: rgb(51, 15, 255);
         font-size: 2rem;
+
+        &:hover {
+            background: rgba(51, 15, 255, 0.8);
+        }
     }
 }
 

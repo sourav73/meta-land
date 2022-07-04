@@ -1,0 +1,15 @@
+@import '../../styles/utilities/variables';
+
+.intro {
+    text-align: center;
+
+    p {
+        font-family: 'Thaleah Fat';
+        text-transform: uppercase;
+        font-size: 1.8rem;
+
+        span {
+            font-size: 2.5rem;
+        }
+    }
+}

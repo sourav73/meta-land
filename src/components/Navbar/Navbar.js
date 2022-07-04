@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className={`${styles.mainNav} text-center`}>
             <div className={styles.navBrand}>
               <a href="#intro" className={styles.navLink}>
-                Meta Land
+                Meta
               </a>
             </div>
             <ul className="d-flex ps-0 mb-0">

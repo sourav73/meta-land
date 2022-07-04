@@ -1,0 +1,13 @@
+@import '../../styles/utilities/mixin';
+
+.heading {
+    @include pixelated-border;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding: 0.5rem 3rem;
+    background: #784b26;
+    border: 8px solid #613919;
+
+}

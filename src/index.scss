@@ -1,4 +1,6 @@
 @import '../src/styles/utilities/reset';
+@import '../src/styles/utilities/variables';
+@import '../src/styles/utilities/custom-classes';
 
 @font-face {
   font-family: 'Thaleah Fat';
@@ -25,4 +27,22 @@
 body {
   font-family: 'Pixel Operator';
   font-weight: 500;
+  background: $bg-color;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+h5 {
+  font-family: 'Thaleah Fat';
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: $primary-text;
+  text-shadow: 0 3px brown;
+}
+
+p {
+  font-family: 'Pixel Operator';
+  color: $primary-text;
 }
