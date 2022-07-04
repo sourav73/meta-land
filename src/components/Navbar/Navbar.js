@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className={`${styles.mainNav} text-center`}>
             <div className={styles.navBrand}>
               <a href="#intro" className={styles.navLink}>
-                Meta
+                <img src="images/logo.png" height={40} alt="meta logo"/>
               </a>
             </div>
             <ul className="d-flex ps-0 mb-0">
