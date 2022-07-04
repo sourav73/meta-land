@@ -7,11 +7,13 @@ import Navbar from "./components/Navbar/Navbar";
 import NftLand from "./components/NftLand/NftLand";
 import Team from "./components/Team/Team";
 import Vision from "./components/Vision/Vision";
+import Heroarea from "./components/Heroarea/Heroarea";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Heroarea />
       <Intro />
       <NftLand />
       <Vision />

@@ -18,8 +18,8 @@ const Navbar = () => {
         <nav className="d-flex justify-content-between align-items-center h-100">
           <div className={`${styles.mainNav} text-center`}>
             <div className={styles.navBrand}>
-              <a href="#intro" className={styles.navLink}>
-                <img src="images/logo.png" height={40} alt="meta logo"/>
+              <a href="#intro" className="navbar-brand">
+                <img src="images/logo.png" className="me-4" height={40} alt="meta logo"/>
               </a>
             </div>
             <ul className="d-flex ps-0 mb-0">
