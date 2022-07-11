@@ -6,14 +6,9 @@
     a,
     ul,
     p {
-        font-family: 'Thaleah Fat';
-    }
-
-    p {
         font-size: 1.3rem;
 
         &:last-child {
-            font-family: 'Pixel Operator';
             font-size: 0.8rem;
         }
     }

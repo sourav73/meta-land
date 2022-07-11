@@ -7,7 +7,6 @@
     width: 100%;
     background: $bg-color;
     padding: 0 2rem;
-    font-family: 'Thaleah Fat';
     box-shadow: 0px 6px 0px #51403a;
     a {
         text-decoration: none;
@@ -27,6 +26,21 @@
         color: #f66;
         cursor: pointer;
         margin-right: 2rem;
+    }
+    .customBrand{
+        display: flex;
+        align-items: center;
+        margin-right: 12px;
+        .brandText{
+            font-size: 2rem;
+            color: #FFFFFF;
+            opacity: 0.8;
+            transition: 0.2s;
+            &:hover{
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        }
     }
 }
 
@@ -71,13 +85,14 @@
     }
 
     a {
-        @include pixelated-border;
-        padding: 0 1.5rem;
-        background: #330fff;
+        font-weight: 600;
         font-size: 2rem;
+        opacity: 0.8;
+        transition: 0.2s;
 
         &:hover {
-            background: rgba(#330fff, 0.8);
+            opacity: 1;
+            border-bottom: 3px solid $primary-text;
         }
     }
 }
