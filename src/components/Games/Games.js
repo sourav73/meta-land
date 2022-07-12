@@ -9,7 +9,7 @@ const Games = () => {
       <div className="container-lg">
         <div className="row justify-content-center">
           <div className="col-md-6 mb-4 mb-md-0">
-            <img src="./images/game-menu.png" alt="" />
+            <img src="./images/img-3.png" alt="avater"/>
           </div>
           <div className="col-md-6 align-self-center w-auto">
             <div className="heading text-center text-md-start">
@@ -28,7 +28,7 @@ const Games = () => {
       </div>
       {/* Games */}
       <div className="container-lg mt-5">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-md-6">
             <div className="heading text-center text-md-start">
               <SectionHeading text="Games and more thing to do" />
@@ -51,7 +51,7 @@ const Games = () => {
             </div>
           </div>
           <div className="col-md-6 align-self-center">
-            <div className="container-fluid">
+            {/* <div className="container-fluid">
               <div className="row">
                 <div className="col-5 pe-0">
                   <img src="./images/game-1.png" alt="Game" className="h-100" />
@@ -69,7 +69,8 @@ const Games = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <img src="/images/nft-grid.png" alt="NFT grid" />
           </div>
         </div>
       </div>

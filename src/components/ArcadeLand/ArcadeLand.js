@@ -47,31 +47,6 @@ const ArcadeLand = () => {
       </div>
       {/* Lands sizes */}
       <div className={`${styles.landSizes} my-5`}>
-        {/* Region 1 */}
-        <div className="container-lg">
-          <div className="row">
-            <div className="col-md-6 mb-4 mb-md-0">
-              <img src="./images/region-2.png" alt="Land region" />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <div className="">
-                <SectionHeading text="Different land sizes" />
-              </div>
-              <h6 className="my-4 ps-2">Larger and receives more rewards.</h6>
-              <div className={styles.list}>
-                <ul>
-                  <li>More Tokens</li>
-                  <li>More Resources</li>
-                  <li>More Perks</li>
-                  <li>More Spaces</li>
-                  <li>More Unique access</li>
-                  <li>Larger and also gain access to unique land items</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Region 2 */}
         <div className="container-lg my-5">
           <div className="row">
             <div className="col-md-6 mb-4 mb-md-0 align-self-center">
@@ -90,7 +65,7 @@ const ArcadeLand = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src="./images/region-1.png" alt="Land region" />
+              <img src="./images/img-2.png" className="border-r-3 w-100" alt="Land region" />
             </div>
           </div>
         </div>

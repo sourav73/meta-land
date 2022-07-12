@@ -2,17 +2,28 @@
 
 #heroarea {
     color: $primary-text;
-    min-height: calc(100vh - 80px);
-    display: flex;
-    font-display: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+    // min-height: calc(100vh - 80px);
+    // display: flex;
+    // font-display: column;
+    // justify-content: center;
+    // align-items: center;
+    // background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
+.border-r-3{
+    border-radius: 3px;
+}
+.btn-hero{
+    font-family: sans-serif;
+    padding: 10px 40px;
+    border-radius: 3px;
+}
 .heading {
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.35;
     color: $primary-text;
     text-shadow: 0 3px brown;
 }
