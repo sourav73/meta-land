@@ -7,7 +7,7 @@ const NftLand = () => {
       <div className="container-lg">
         <div className="row">
           <div className="col-md-6 mb-4 mb-md-0">
-            <img src="./images/nft-world.png" alt="Nft World" />
+            <img src="./images/img-1.png" alt="Nft World" />
           </div>
           <div className="col-md-6 align-self-center">
             <div className={styles.nftText}>
